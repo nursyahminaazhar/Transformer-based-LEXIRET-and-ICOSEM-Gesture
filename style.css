@@ -1,0 +1,53 @@
+body {
+    background-color: #fefbf6;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333333;
+}
+[data-testid="stAppViewContainer"] {
+    background-color: #fff7f0;
+}
+h1 {
+    color: #e07a5f;
+    font-weight: 700;
+}
+h2, h3 {
+    color: #3d405b;
+}
+button {
+    background-color: #81b29a;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 16px;
+    border: none;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #6b9d88;
+}
+input[type="text"] {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 6px;
+}
+.css-1cpxqw2 {
+    color: #f2cc8f;
+}
+.css-1y4p8pa {
+    background-color: #fdf6e3;
+    border: 1px dashed #ccc;
+    padding: 10px;
+    border-radius: 8px;
+}
+.stAlert.success {
+    background-color: #d4edda;
+    border-left: 5px solid #28a745;
+}
+.stAlert.error {
+    background-color: #f8d7da;
+    border-left: 5px solid #dc3545;
+}
+.stAlert.warning {
+    background-color: #fff3cd;
+    border-left: 5px solid #ffc107;
+}
